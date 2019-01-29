@@ -27,4 +27,4 @@ class App extends Component {
 }
 
 export default App;
-/* https://www.youtube.com/watch?v=wPQ1-33teR4&index=4&t=13117s&list=LLsa0LzMzgiJpYpovYxBKGCA 4:22*/
+/* https://www.youtube.com/watch?v=wPQ1-33teR4&index=4&t=13117s&list=LLsa0LzMzgiJpYpovYxBKGCA 4:56*/
