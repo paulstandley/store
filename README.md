@@ -2,6 +2,8 @@
 
 # _**PAUL STANDLEY**_
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cc6afed9-fa81-4a50-8465-b2dd1ca201d3/deploy-status)](https://app.netlify.com/sites/premierdiscount/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
