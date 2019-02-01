@@ -1,12 +1,11 @@
 import React from 'react';
 
 export default function CartItem({item, value}) {
-  console.log(item)
   if(item !== undefined) {
   const { id, title, img, price, total, count } = item;
   const { increment, decrement, removeItem } = value;
   return (
-    <div className="row my-2 rext-capitlize text-center">
+    <div className="row my-2 text-capitlize text-center">
       <div className="col-10 mx-auto col-lg-2">
         <img src={img} alt={title} style={{width: "5rem",height: "5rem"}} className="img-fluid"/>
       </div>
@@ -28,7 +27,8 @@ export default function CartItem({item, value}) {
             +
           </span>       
         </div>
-        <div className="col-10 mx-auto col-lg-2">
+      </div>
+      <div className="col-10 mx-auto col-lg-2">
           <div className="cart-icon" onClick={() => removeItem(id)}>
             <i className="fas fa-trash"></i>
           </div>
@@ -36,11 +36,10 @@ export default function CartItem({item, value}) {
         <div className="col-10 mx-auto col-lg-2">
           <strong>item total : $ {total}</strong>
         </div>
-      </div>
     </div>
   )
   }else{
-    return null
+    return null;
   }
 
 }

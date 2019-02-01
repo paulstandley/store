@@ -2,6 +2,8 @@
 
 # _**PAUL STANDLEY**_
 
+[code by free code camp](https://www.youtube.com/watch?v=wPQ1-33teR4&index=4&t=13117s&list=LLsa0LzMzgiJpYpovYxBKGCA)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cc6afed9-fa81-4a50-8465-b2dd1ca201d3/deploy-status)](https://app.netlify.com/sites/premierdiscount/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
